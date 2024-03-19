@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .content {
+            background: url("images/work.jpeg") no-repeat center center;
+            background-size: cover;
+            position: relative; /* Ensure positioning for overlay */
+            overflow: hidden; /* Hide overflowing blur effect */
+        }
+        
+        .content::before {
+            content: ''; /* Create a pseudo-element */
+            position: absolute; /* Position the pseudo-element */
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: inherit; /* Inherit background from parent */
+            filter: blur(100px); /* Apply blur effect */
+        }
+        
+        .content p,
+        .content img,
+        .content a {
+            position: relative; /* Ensure content appears above blur layer */
+            color: white; /* Adjust text color as needed */
+        }
+        
+        
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="rules.html">Rules</a></li>
+                    <li><a href="join.html">Join Here</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="winners.html">Winners</a></li>
+                    <li><a href="work.html">AR/VR Workshop</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    
+    <div class="content">
+        <a href="https://forms.gle/7iWfgiTatsQKkH267" class="instagram-icon" target="_blank">
+            <img class="register-image" src="images/work.jpeg" alt="Register">
+        </a>
+    </div>
+    
+</body>
+</html>

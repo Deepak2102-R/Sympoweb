@@ -82,7 +82,7 @@ nav ul li a:hover {
 }
 
 .follow-text {
-    font-family: Impact, Charcoal, sans-serif;
+    font-family: 'Arial, Helvetica, sans-serif';
     letter-spacing: 1px;
     font-size: 35px;
     text-align: center;
@@ -95,7 +95,7 @@ nav ul li a:hover {
 }
 
 .w-text {
-    font-family: Impact, Charcoal, sans-serif;
+    font-family: 'Arial, Helvetica, sans-serif';
     letter-spacing: 1px;
     font-size: 35px;
     text-align: center;
@@ -108,11 +108,11 @@ nav ul li a:hover {
 }
 
 .r-text {
-    font-family: Impact, Charcoal, sans-serif;
+    font-family: 'Arial, Helvetica, sans-serif';
     letter-spacing: 1px;
     font-size: 30px;
-    text-align: center;
     line-height: 1.5;
+    text-align: left;
     text-shadow: 2px 2px 0 black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;
     margin: auto auto;
     /* Center the text horizontally and provide top margin */
@@ -121,7 +121,7 @@ nav ul li a:hover {
 }
 
 .f-text {
-    font-family: Comic Sans MS, Comic Sans;
+    font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
     font-size: 28px;
     text-align: center;
@@ -138,7 +138,7 @@ nav ul li a:hover {
 }
 
 .department-text {
-    font-family: Impact, Charcoal, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
     font-size: 35px;
     /* Decrease font size */
